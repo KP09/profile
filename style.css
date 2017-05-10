@@ -1,0 +1,125 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+form {
+  margin: 0;
+}
+
+#banner {
+  background: linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%), url(images/banner_2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 500px;
+}
+
+#title {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+#search {
+  text-align: center;
+  color: rgba(240,240,240);
+  margin-top: 15px;
+}
+
+#menu {
+  text-align: right;
+  color: white;
+  line-height: 50px;
+  padding: 10px;
+  padding-right: 25px;
+}
+
+.search {
+  font-size: 12px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+  padding: 5px 50px;
+  text-align: center;
+}
+
+.avatar-small {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.avatar-large {
+  border-radius: 50%;
+  width: 200px;
+  border: 4px solid white;
+}
+
+.profile-picture {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  color: white;
+}
+
+.profile-stats {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat {
+  background-color: white;
+  width: 120px;
+  height: 80px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid rgb(200,200,200);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 0;
+  box-shadow: 0px 0 10px rgb(200,200,200);
+}
+
+.card-header {
+  padding-left: 10px;
+}
+
+.card-content {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-content p {
+  color: rgb(120,120,120);
+}
+
+.card-content i {
+  font-size: 20px;
+}
+
+.contribution-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  box-shadow: 0px 0 10px rgb(200,200,200);
+}
+
+#footer {
+  background-color: #0080FF;
+}
